@@ -1,4 +1,4 @@
-package com.startspring.TwitterClone;
+package com.startspring.twitterclone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
