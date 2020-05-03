@@ -13,12 +13,11 @@
             <button type="submit">Add</button>
         </form>
     </div>
-    <form method="post" action="filter">
-        <input type="text" name="filter">
-        <input type="hidden" name="_csrf" value="${_csrf.token}"/>
+    <div>Message List</div>
+    <form method="get" action="/main">
+        <input type="text" name="filter" value="${filter}">
         <button type="submit">Find</button>
     </form>
-    <div>Message List</div>
     <#list messages as message>
     <div>
         <b>${message.id}</b>
