@@ -38,7 +38,7 @@ public class RegistrationController {
         if (isActivated) {
             model.addAttribute("message", "User successfully activated");
         } else {
-            model.addAttribute("message", "Wrong activation code!");
+            model.addAttribute("message", "Activation code is not found!");
         }
 
         return "login";
