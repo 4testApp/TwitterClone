@@ -39,6 +39,7 @@ Main page shows the list of all messages with their tags and authors.
 Here user can:
 
 1) Add a new post
+
 ![null_msg](https://user-images.githubusercontent.com/55657036/81917203-8f237c80-95dd-11ea-8ae0-2e1bc7b3acfa.JPG)
 ![msg_add](https://user-images.githubusercontent.com/55657036/81917205-8f237c80-95dd-11ea-871b-fdb83eddd919.JPG)
 
