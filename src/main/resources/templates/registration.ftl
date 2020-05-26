@@ -3,7 +3,7 @@
 
 <@c.page>
     <div class="mb-1">
-        Add new user
+        <i>*all fields must be filled</i>
     </div>
 ${message!}
 <@l.login "/registration" true/>
