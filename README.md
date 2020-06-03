@@ -67,6 +67,7 @@ On the My messages page user can:
 ![my_msgs](https://user-images.githubusercontent.com/55657036/83522565-8392e980-a4e9-11ea-97e3-fee4267bfe96.JPG)
 
 - edit any post
+
 ![edit_1](https://user-images.githubusercontent.com/55657036/83554152-fcf40180-a514-11ea-8dec-4922bc8090a2.JPG)
 ![edit_2](https://user-images.githubusercontent.com/55657036/83554148-fc5b6b00-a514-11ea-9757-c6537f435f1c.JPG)
 
@@ -74,6 +75,8 @@ On the My messages page user can:
 
 ![subscribers](https://user-images.githubusercontent.com/55657036/83553499-f0bb7480-a513-11ea-80aa-f5c03560abb7.JPG)
 ![subscriptions](https://user-images.githubusercontent.com/55657036/83553503-f1eca180-a513-11ea-9500-297a43a4b968.JPG)
+
+--------------------------------------
 
 On the My profile page user can view and edit his profile information
 
