@@ -1,65 +1,91 @@
 # TwitterClone
-Simple Twitter-like app that can store user's messages with tags. 
-Registration and authorization allow the user to separate his messages from other users.
+Twitter-like app that allows user to register, log in, post his own messages, read and subscribe on other users and other Twitter features.
 
-There are 3 general pages in this app: registration page, login page and main page.
+How to use this app:
 
-Registration page allows new users to create their own entry.
 1) Fill out the registration form
 
-![new_smith](https://user-images.githubusercontent.com/55657036/81917222-921e6d00-95dd-11ea-8529-f075522b794a.JPG)
+![reg_1](https://user-images.githubusercontent.com/55657036/83520697-c56e6080-a4e6-11ea-9576-42c64c1a6893.JPG)
 
 
 2) Check registration email
 
-![mail_1](https://user-images.githubusercontent.com/55657036/81917224-921e6d00-95dd-11ea-8a42-0bc7e3bda1ad.JPG)
+![reg_2](https://user-images.githubusercontent.com/55657036/83520747-dcad4e00-a4e6-11ea-9086-deb80cd09b1b.JPG)
 
 
 3) Visit activation link
 
-![mail_2](https://user-images.githubusercontent.com/55657036/81917227-92b70380-95dd-11ea-8bfa-f2542dcf4d9d.JPG)
+![reg_3](https://user-images.githubusercontent.com/55657036/83520744-dc14b780-a4e6-11ea-83c2-f43e0f1e7d4b.JPG)
 
 
-4) Now the user can log in to his account
+4) Now the user can log in to his account and watch news feed
 
-![mail_3](https://user-images.githubusercontent.com/55657036/81917229-934f9a00-95dd-11ea-8a1f-8b626081a9e9.JPG)
+![main](https://user-images.githubusercontent.com/55657036/83521390-d7043800-a4e7-11ea-86b2-3d19cdaa384b.JPG)
 
+--------------------------------------
 
+On the main page user can:
 
-Login page allows users to authorize themselves with the help of user name and password.
+- Add a new post
 
-![login_page](https://user-images.githubusercontent.com/55657036/81917216-90ed4000-95dd-11ea-8578-3fd948e7f68f.JPG)
-
-
-Main page shows the list of all messages with their tags and authors.
-
-![main](https://user-images.githubusercontent.com/55657036/81917197-8d59b900-95dd-11ea-8f16-004c8f931992.JPG)
+![add_1](https://user-images.githubusercontent.com/55657036/83521879-87723c00-a4e8-11ea-8727-976986c35641.JPG)
+![add_2](https://user-images.githubusercontent.com/55657036/83521875-86d9a580-a4e8-11ea-985a-db361c389323.JPG)
 
 
-Here user can:
+- Search by tag
 
-1) Add a new post
-
-![null_msg](https://user-images.githubusercontent.com/55657036/81917203-8f237c80-95dd-11ea-8ae0-2e1bc7b3acfa.JPG)
-![msg_add](https://user-images.githubusercontent.com/55657036/81917205-8f237c80-95dd-11ea-871b-fdb83eddd919.JPG)
+![search](https://user-images.githubusercontent.com/55657036/83521964-a670ce00-a4e8-11ea-8a11-ed14000006cc.JPG)
 
 
-2) Search for posts by tag
+- Go to another user’s page
 
-![search](https://user-images.githubusercontent.com/55657036/81917200-8e8ae600-95dd-11ea-9da2-9d0ebb3b0fc3.JPG)
+![another](https://user-images.githubusercontent.com/55657036/83639958-231cae80-a5b4-11ea-8636-8a5564d4b889.JPG)
 
+--------------------------------------
 
-3) Log out
+On the page of another one, user can:
 
-![guest](https://user-images.githubusercontent.com/55657036/81917215-90ed4000-95dd-11ea-8d63-de530cec73a7.JPG)
+- view all posts and number of subscribers and subscriptions
 
+![subs_1](https://user-images.githubusercontent.com/55657036/83553675-38420080-a514-11ea-9aba-3f7f548e0071.JPG)
 
-There is also an administrator role.
+- subscribe or unsubscribe to this account
 
-![admin_1](https://user-images.githubusercontent.com/55657036/81917210-8fbc1300-95dd-11ea-836e-62215e843647.JPG)
+![subs_2](https://user-images.githubusercontent.com/55657036/83553674-37a96a00-a514-11ea-8002-ee3a531de353.JPG)
 
+- view subscribers and subscriptions of this user
+
+![cribtions](https://user-images.githubusercontent.com/55657036/83640454-d1285880-a5b4-11ea-8849-df15c0e28498.JPG)
+![cribers](https://user-images.githubusercontent.com/55657036/83640455-d1c0ef00-a5b4-11ea-850a-9acd5afcbebe.JPG)
+
+--------------------------------------
+
+On the My messages page user can:
+
+- view all his posts and number of subscribers and subscriptions
+
+![my_msgs](https://user-images.githubusercontent.com/55657036/83522565-8392e980-a4e9-11ea-97e3-fee4267bfe96.JPG)
+
+- edit any post
+![edit_1](https://user-images.githubusercontent.com/55657036/83554152-fcf40180-a514-11ea-8dec-4922bc8090a2.JPG)
+![edit_2](https://user-images.githubusercontent.com/55657036/83554148-fc5b6b00-a514-11ea-9757-c6537f435f1c.JPG)
+
+- view subscribers and subscriptions
+
+![subscribers](https://user-images.githubusercontent.com/55657036/83553499-f0bb7480-a513-11ea-80aa-f5c03560abb7.JPG)
+![subscriptions](https://user-images.githubusercontent.com/55657036/83553503-f1eca180-a513-11ea-9500-297a43a4b968.JPG)
+
+On the My profile page user can view and edit his profile information
+
+![profile](https://user-images.githubusercontent.com/55657036/83554913-25303000-a516-11ea-97b9-3ab3ece6f0ed.JPG)
+
+--------------------------------------
+
+There is also an administrator role in the app.
+
+![admin_1](https://user-images.githubusercontent.com/55657036/83641028-9ffc5800-a5b5-11ea-9377-d903f8bf7dde.JPG)
 
 Admin can view and manage all accounts.
 
-![admin_2](https://user-images.githubusercontent.com/55657036/81917212-9054a980-95dd-11ea-9d80-f048445e4237.JPG)
-![admin_3](https://user-images.githubusercontent.com/55657036/81917213-9054a980-95dd-11ea-9922-3ac539652f9a.JPG)
+![admin_2](https://user-images.githubusercontent.com/55657036/83641031-9ffc5800-a5b5-11ea-9328-9e3f9af4839d.JPG)
+![admin_3](https://user-images.githubusercontent.com/55657036/83641024-9f63c180-a5b5-11ea-9b26-886121d0223e.JPG)
