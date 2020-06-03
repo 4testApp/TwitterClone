@@ -1,5 +1,5 @@
 # TwitterClone
-Twitter-like app that allows user to register, log in, post his own messages, read and subscribe on other users and other Twitter features.
+Twitter-like app that allows user to register, login/logout, post his own messages, read and subscribe to other users and other Twitter features.
 
 How to use this app:
 
@@ -18,9 +18,14 @@ How to use this app:
 ![reg_3](https://user-images.githubusercontent.com/55657036/83520744-dc14b780-a4e6-11ea-83c2-f43e0f1e7d4b.JPG)
 
 
-4) Now the user can log in to his account and watch news feed
+4) Now the user can log in to his account and watch news feed, subscribe/unsubscribe to other users, add new posts, etc.
 
 ![main](https://user-images.githubusercontent.com/55657036/83521390-d7043800-a4e7-11ea-86b2-3d19cdaa384b.JPG)
+
+5) App stores active user sessions in the database, so user don't need to login every time during restart. To logout user should use Sign Out button.
+
+![last](https://user-images.githubusercontent.com/55657036/83643031-3f224f00-a5b8-11ea-88f7-67fe0512b9af.JPG)
+![logout](https://user-images.githubusercontent.com/55657036/83643030-3e89b880-a5b8-11ea-969a-c1a6f06f60b9.JPG)
 
 --------------------------------------
 
